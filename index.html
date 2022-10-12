@@ -8,7 +8,9 @@
     <h2>Sound demos for "Source-Filter-Based Generative Adversarial Neural Vocoder for High Fidelity Speech Synthesis"</h2>
     <!-- <p>&nbsp;</p> -->
     <!-- <p>&nbsp;</p> -->
-    <p><strong>Abstract: </strong>This paper proposes a source-filter-based generative adversarial neural vocoder named SF-GAN, which achieves high-fidelity waveform generation from input acoustic features by introducing pitch-based source excitation signals to a neural filter framework. After generating excitation signals from pitches in the source module, we propose a resolution-wise conditional filter module to combine excitation signals with intermediate acoustic features at various resolutions which helps enlarge the receptive fields of the excitation signal and capture pitch information through frequency bands, and finally reconstruct the raw waveform. The experimental results show that our proposed SF-GAN outperforms the state-of-the-art HiFi-GAN and Fre-GAN on both analysis-synthesis (AS) and text-to-speech (TTS) tasks in terms of both objective and subjective evaluations.</p>
+    <p><strong>Author: </strong>Ye-Xin Lu, Yang Ai, and Zhen-Hua Ling</p>
+    <p><strong>Abstract: </strong> This paper proposes a source-filter-based generative adversarial neural vocoder named SF-GAN, which achieves high-fidelity waveform generation from input acoustic features by introducing pitch-based source excitation signals to a neural filter framework. The SF-GAN vocoder is composed of a source module and a resolution-wise conditional filter module, and is trained based on the generative adversarial strategies. The source module produces an excitation signal from the pitch information, then the filter module combines the excitation signal with processed acoustic features at various temporal resolutions and finally reconstructs the raw waveform. The experimental results show that our proposed SF-GAN vocoder outperforms the state-of-the-art HiFi-GAN and Fre-GAN on both analysis-synthesis (AS) and text-to-speech (TTS) tasks in terms of both objective and subjective evaluations.
+    </p>
     <a></a><div><a>
       <h2>Analysis-Synthesis Task</h2>
       <hr />
@@ -17,7 +19,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">Ground Truth</div></th>         
+            <th width="170"><div align="left">Ground Truth</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/A/A_01.wav" type="audio/wav">
             </audio></td>
@@ -39,7 +41,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">HiFi-GAN v1</div></th>         
+            <th width="170"><div align="left">HiFi-GAN v1</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/B/B_01.wav" type="audio/wav">
             </audio></td>
@@ -61,7 +63,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">Fre-GAN v1</div></th>         
+            <th width="170"><div align="left">Fre-GAN v1</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/C/C_01.wav" type="audio/wav">
             </audio></td>
@@ -83,7 +85,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">SF-GAN v1</div></th>         
+            <th width="170"><div align="left">SF-GAN v1 (proposed)</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/D/D_01.wav" type="audio/wav">
             </audio></td>
@@ -105,7 +107,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">HiFi-GAN v2</div></th>         
+            <th width="170"><div align="left">HiFi-GAN v2</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_01.wav" type="audio/wav">
             </audio></td>
@@ -127,7 +129,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">SF-GAN v2</div></th>         
+            <th width="170"><div align="left">SF-GAN v2 (proposed)</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/F/F_01.wav" type="audio/wav">
             </audio></td>
@@ -152,7 +154,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">Ground Truth</div></th>         
+          <th width="170"><div align="left">Ground Truth</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_01.wav" type="audio/wav">
           </audio></td>
@@ -160,13 +162,13 @@
               <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_03.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_05.wavv" type="audio/wav">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_05.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_07.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_09.wavv" type="audio/wav">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_09.wav" type="audio/wav">
           </audio></td>
         </tr>
       </tbody>
@@ -174,7 +176,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">HiFi-GAN v1</div></th>         
+          <th width="170"><div align="left">HiFi-GAN v1</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/B/B_01.wav" type="audio/wav">
           </audio></td>
@@ -196,7 +198,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">Fre-GAN v1</div></th>         
+          <th width="170"><div align="left">Fre-GAN v1</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/C/C_01.wav" type="audio/wav">
           </audio></td>
@@ -218,7 +220,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">SF-GAN v1</div></th>         
+          <th width="170"><div align="left">SF-GAN v1 (proposed)</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/D/D_01.wav" type="audio/wav">
           </audio></td>
@@ -240,7 +242,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">HiFi-GAN v2</div></th>         
+          <th width="170"><div align="left">HiFi-GAN v2</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/E/E_01.wav" type="audio/wav">
           </audio></td>
@@ -262,7 +264,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">SF-GAN v2</div></th>         
+          <th width="170"><div align="left">SF-GAN v2 (proposed)</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/F/F_01.wav" type="audio/wav">
           </audio></td>
@@ -288,7 +290,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">Ground Truth</div></th>         
+          <th width="170"><div align="left">Ground Truth</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/A/A_02.wav" type="audio/wav">
           </audio></td>
@@ -310,7 +312,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">HiFi-GAN v1</div></th>         
+          <th width="170"><div align="left">HiFi-GAN v1</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/B/B_02.wav" type="audio/wav">
           </audio></td>
@@ -332,7 +334,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">Fre-GAN v1</div></th>         
+          <th width="170"><div align="left">Fre-GAN v1</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/C/C_02.wav" type="audio/wav">
           </audio></td>
@@ -354,7 +356,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">SF-GAN v1</div></th>         
+          <th width="170"><div align="left">SF-GAN v1 (proposed)</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/D/D_02.wav" type="audio/wav">
           </audio></td>
@@ -376,7 +378,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">HiFi-GAN v2</div></th>         
+          <th width="170"><div align="left">HiFi-GAN v2</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/E/E_02.wav" type="audio/wav">
           </audio></td>
@@ -398,7 +400,7 @@
     <table>
       <tbody>
         <tr>
-          <th width="150"><div align="left">SF-GAN v2</div></th>         
+          <th width="170"><div align="left">SF-GAN v2 (proposed)</div></th>         
           <td><audio controls="">
               <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/F/F_02.wav" type="audio/wav">
           </audio></td>
@@ -423,7 +425,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">SF-GAN v2 (baseline)</div></th>         
+            <th width="170"><div align="left">SF-GAN v2 (baseline)</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/A/A_11.wav" type="audio/wav">
             </audio></td>
@@ -446,7 +448,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">w/o DNN</div></th>         
+            <th width="170"><div align="left">w/o DNN</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/B/B_11.wav" type="audio/wav">
             </audio></td>
@@ -468,7 +470,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">w/o SubBlock</div></th>         
+            <th width="170"><div align="left">w/o SubBlock</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/C/C_11.wav" type="audio/wav">
             </audio></td>
@@ -490,7 +492,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">w/o PC-ResBlock</div></th>         
+            <th width="170"><div align="left">w/o PC-ResBlock</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/D/D_11.wav" type="audio/wav">
             </audio></td>
@@ -513,7 +515,7 @@
       <table>
         <tbody>
           <tr>
-            <th width="150"><div align="left">HiFi-GAN v2</div></th>         
+            <th width="170"><div align="left">HiFi-GAN v2</div></th>         
             <td><audio controls="">
                 <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_01.wav" type="audio/wav">
             </audio></td>
